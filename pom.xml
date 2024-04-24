@@ -8,7 +8,5 @@
     <artifactId>chatbot-ai</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>chatbot-ai-domian</module>
-    </modules>
+
 </project>

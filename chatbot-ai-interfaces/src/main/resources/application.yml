@@ -1,2 +1,13 @@
 server:
   port: 9090
+
+
+chatbot-ai:
+  launchList: group01,group02 # 启动几组，就配置几组
+  group01:
+    groupName: ChatGPT AI 问答助手
+    groupId: 15555585821212 # 知识星球ID
+    cookie:  zsxq_access_token=AECA52E5-A3DF-B27B-CC29-A4356585739F_C3BD0D930BA19855; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2218f08a399a9260-0dda36ec1fbed3-17333270-1327104-18f08a399aa3b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThmMDhhMzk5YTkyNjAtMGRkYTM2ZWMxZmJlZDMtMTczMzMyNzAtMTMyNzEwNC0xOGYwOGEzOTlhYTNiIn0%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%2218f08a399a9260-0dda36ec1fbed3-17333270-1327104-18f08a399aa3b%22%7D; abtest_env=product; zsxqsessionid=c45008243c68cfd720ac4fce0c303315
+#    openAiKey:  # 自行申请 https://beta.openai.com/overview 或者联系小傅哥 fustack 付费申请【购买虚拟号码等需要支付】。
+#    cronExpression: 0/30 * * * * ? # 执行的频次配置，参考：cron.qqe2.com
+    silenced: false
